@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+
+}
+body {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+h3 {
+  font-weight: bold;
+}
+.forecast {
+  font-size: 1.2em;
+}
+span{
+  font-size: 1em;
+}
+li:hover{
+  background-color: lightblue;
+  text-decoration: underline;
+}
