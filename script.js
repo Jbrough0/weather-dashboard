@@ -24,14 +24,14 @@ var userCity = "";
 // }
 
 var APIKey = "&appid=74e0dbda9a9ba1f2046e6d81f6487cfa";
-var quearyurl = "http://api.openweathermap.org/data/2.5/weather?q=";
+var quearyurl = "https://api.openweathermap.org/data/2.5/weather?q=";
 var imperialUnits = "&units=imperial";
 //Search button onClick event
 $('#search-button').on("click", function () {
     userCity = $("#city-search").val().trim();
     console.log(userCity);
     var newUrl = quearyurl + userCity + imperialUnits + APIKey;
-    var uvquaryurl = "http://api.openweathermap.org/data/2.5/uvi?Lat=" + lat + '&lon=' + lon + APIKey
+    var uvquaryurl = "https://api.openweathermap.org/data/2.5/uvi?Lat=" + lat + '&lon=' + lon + APIKey
     runqueary(newUrl)
 
 });
