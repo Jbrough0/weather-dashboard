@@ -1,1 +1,2 @@
 I created a weather dashboard that shows both the current weather and future weather for a particular city.  First I created a search bar to type in then city name.  Then I created functions in my javascript that set up the API keys and also set up seperate "equation" codes that will both store and show the current temperature humidity wind speed and uv index for the city that has been typed in.  Finally I did the same thing for the future weather data so that the same weather information over the next few days would be shown.  
+https://jbrough0.github.io/weather-dashboard/
