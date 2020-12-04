@@ -74,7 +74,7 @@ function runqueary(quaryurl) {
 
 function runuvqueary(lat, lon) {
     $.ajax({
-        url: "http://api.openweathermap.org/data/2.5/uvi/forecast?lat=" + lat + '&lon=' + lon + APIKey,
+        url: "https://api.openweathermap.org/data/2.5/uvi/forecast?lat=" + lat + '&lon=' + lon + APIKey,
         method: "GET"
     })
         .done(function (weatherdata) {
